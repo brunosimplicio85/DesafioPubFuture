@@ -39,7 +39,7 @@
         out.print(e);
     }
 
-    //TRAZER OS DADOS DO CORRETOR
+    //TRAZER OS DADOS DO TESSOUREIRO
     try {
         st = new Conexao().conectar().createStatement();
         rs = st.executeQuery("SELECT * FROM corretores where cpf = '" + cpf + "' ");
