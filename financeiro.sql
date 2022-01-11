@@ -140,7 +140,6 @@ CREATE TABLE `corretores` (
 INSERT INTO `corretores` (`id`, `nome`, `cpf`, `telefone`, `email`, `endereco`, `foto`, `descricao`, `twitter`, `facebook`) VALUES
 (1, 'Marcelo Silva', '555.555.555-55', '(22) 22222-2222', 'marcelo@hotmail.com', 'Rua A', '1593540722860agent-1.jpg', NULL, NULL, NULL),
 (2, 'Paloma Campos', '555.555.555-15', '(22) 22222-2233', 'paloma@hotmail.com', 'Rua Almeida Campos 150', '1593540760968agent-5.jpg', NULL, NULL, NULL),
-(4, 'Mauricio', '999.999.999-15', '(77) 77777-7777', 'aaa@hugocursos.com.br', 'afsdfafdfa', '1593544359932agent-2.jpg', NULL, NULL, NULL),
 (5, 'Marta SIlva', '645.555.555-55', '(99) 88888-8855', 'marta@hotmail.com', 'Rua XX', '1593544631752profile-agent.jpg', NULL, NULL, NULL),
 (6, 'Pedro Freitas', '594.555.454-54', '(65) 55555-5555', 'pedro@hotmail.com', 'Rua A', '1593544655113agent-4.jpg', 'Enquanto não encontrar sua casa dos sonhos eu não irei desistir!!', NULL, NULL),
 (13, 'Corretor Teste', '555.555.555-66', '(31) 97527-5084', 'corretor@hotmail.com', 'Rua Almeida Campos 150', '1593546386210agent-2.jpg', 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'https://www.facebook.com/hugovasconcelosfreitas/', 'https://www.facebook.com/hugovasconcelosfreitas/');
