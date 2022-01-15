@@ -26,7 +26,7 @@
     st2 = new Conexao().conectar().createStatement();
     st3 = new Conexao().conectar().createStatement();
 
-    //Trazer total de imóveis cadastrados
+   
     rs = st.executeQuery("SELECT * FROM imoveis where status = 'Para Venda' or status = 'Para Aluguel' ");
     while (rs.next()) {
         totalImoveis = totalImoveis + 1;
@@ -56,7 +56,7 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Imóveis Cadastrados</div>
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">ImÃ³veis Cadastrados</div>
                         <div class="h5 mb-0 font-weight-bold text-gray-800"><%=totalImoveis%></div>
                     </div>
                     <div class="col-auto">
@@ -123,7 +123,7 @@
 
 <div class="row">
 
-    <!-- Início dos cards -->
+    <!-- InÃ­cio dos cards -->
 
     <%    try {
 
@@ -220,6 +220,6 @@
         }
     %>
 
-    <!-- Fim dos Cards com os Imóveis -->   
+    <!-- Fim dos Cards com os ImÃ³veis -->   
 
 </div>                   
