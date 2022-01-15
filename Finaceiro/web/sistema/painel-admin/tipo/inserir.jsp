@@ -21,14 +21,14 @@
         nome = request.getParameter("nome");
         
         
-        //recuperar dados para edição
+        //recuperar dados para ediÃ§Ã£o
         antigo = request.getParameter("antigo");
         id = request.getParameter("txtid");
         
         //INSERIR OS DADOS NO BANCO DE DADOS
         try {
 
-            //verificar se o campo é vazio
+            //verificar se o campo Ã© vazio
             if (nome.equals("")) {
                 out.print("Preencha o Campo Nome teste!!");
                 return;
@@ -43,7 +43,7 @@
                 while (rs.next()) {
                     rs.getRow();
                     if (rs.getRow() > 0) {
-                        out.print("Cidade Já Cadastrada!");
+                        out.print("Tipo JÃ¡ Cadastrada!");
                         return;
                     }
                 }
